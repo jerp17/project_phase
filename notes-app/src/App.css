@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;   /* makes everything vertical */
+  align-items: center;
+  padding: 20px;
+}
+
+input, textarea {
+  width: 300px;
+  padding: 10px;
+  margin: 10px 0;   /* space top & bottom */
+}
+
+button {
+  margin: 5px;
+  padding: 8px 12px;
+}
+
+.notes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  text-align: left;
+}
